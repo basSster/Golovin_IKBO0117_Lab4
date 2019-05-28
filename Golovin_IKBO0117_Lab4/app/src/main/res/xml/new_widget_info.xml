@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialKeyguardLayout="@layout/new_widget"
+    android:initialLayout="@layout/new_widget"
+    android:minWidth="110dp"
+    android:minHeight="40dp"
+    android:previewImage="@drawable/ic_launcher_foreground"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="200000"
+    android:configure="com.example.golovin_ikbo0117_lab4.MainActivity"
+    android:widgetCategory="home_screen" />
